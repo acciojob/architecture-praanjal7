@@ -1,16 +1,160 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Wonders</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        
+        .imageContainer {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+        
+        table td {
+            padding: 15px;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+        
+        table img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        
+        table img:hover {
+            transform: scale(1.03);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #ddd;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        
+        .tag {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-right: 5px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <header>
+            <h1>Architectural Marvels Through the Ages</h1>
+            <p>Exploring the world's most iconic structures</p>
+        </header>
+        
+        <div class="imageContainer">
+            <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80" alt="Modern Architecture">
+        </div>
+        
+        <table>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Ancient Architecture">
+                </td>
+                <td width="600">
+                    <h2>Ancient Architecture</h2>
+                    <p>Ancient architecture represents the earliest forms of human construction, from the pyramids of Egypt to the Parthenon in Greece. These structures were often built with religious or political significance, using locally available materials and innovative techniques for their time. The durability of many ancient structures is a testament to the engineering skills of early civilizations.</p>
+                    <div>
+                        <span class="tag">#Ancient</span>
+                        <span class="tag">#History</span>
+                        <span class="tag">#Stone</span>
+                    </div>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Roman Colosseum">
+                </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Gothic Architecture">
+                </td>
+                <td width="600">
+                    <h2>Gothic Architecture</h2>
+                    <p>Gothic architecture flourished in Europe during the High and Late Middle Ages, evolving from Romanesque architecture. Characterized by pointed arches, ribbed vaults, and flying buttresses, Gothic buildings like Notre-Dame de Paris showcase incredible verticality and light. The extensive use of stained glass created ethereal interiors that inspired spiritual awe.</p>
+                    <div>
+                        <span class="tag">#Gothic</span>
+                        <span class="tag">#Cathedrals</span>
+                        <span class="tag">#Medieval</span>
+                    </div>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Notre Dame">
+                </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Modern Architecture">
+                </td>
+                <td width="600">
+                    <h2>Modern Architecture</h2>
+                    <p>Modern architecture emerged in the 20th century, emphasizing function over ornamentation. Pioneered by architects like Le Corbusier and Mies van der Rohe, it features clean lines, open floor plans, and innovative use of materials like steel and glass. Iconic examples include the Fallingwater house by Frank Lloyd Wright and the Seagram Building in New York.</p>
+                    <div>
+                        <span class="tag">#Modern</span>
+                        <span class="tag">#Minimalism</span>
+                        <span class="tag">#Innovation</span>
+                    </div>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Contemporary Building">
+                </td>
+            </tr>
+        </table>
+        
+        <footer>
+           
+        </footer>
+    </div>
 </body>
-
 </html>
